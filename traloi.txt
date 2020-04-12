@@ -1,0 +1,3 @@
+4. onPause -> onStop -> onDestroy -> onCreate -> onStart -> onResume.
+5. onPause -> onStop -> onRestart -> onStart -> onResume.
+6.
