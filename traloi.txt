@@ -1,3 +1,6 @@
 4. onPause -> onStop -> onDestroy -> onCreate -> onStart -> onResume.
 5. onPause -> onStop -> onRestart -> onStart -> onResume.
-6.
+6. Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng khi chạy
+lại ứng dụng thì cần phải thực hiện trong phương thức vòng đời onPause() vì onPause() là phương thức
+duy nhất đảm bảo được gọi trước khi tiến trình bị hủy còn onStop() và onDestroy() có thể không được
+gọi.
